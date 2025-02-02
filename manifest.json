@@ -12,7 +12,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://whs.school.kiwi//*"],
+      "matches": ["*://whs.school.kiwi/*"],
       "js": ["main.js"]
     }
   ]
