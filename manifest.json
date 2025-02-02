@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "WHS Portal Tweaks",
+  "version": "0.0",
+
+  "description": "new whs portal is gay this makes it better trust",
+
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://whs.school.kiwi//*"],
+      "js": ["main.js"]
+    }
+  ]
+}
